@@ -1,0 +1,4 @@
+tuto_welcome:
+    resource: "@tutoWelcomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
