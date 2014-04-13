@@ -135,13 +135,13 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // tuto_welcome_homepage
+        // tutoWelcomeBundle_homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'tuto_welcome_homepage');
+                return $this->redirect($pathinfo.'/', 'tutoWelcomeBundle_homepage');
             }
 
-            return array (  '_controller' => 'tuto\\WelcomeBundle\\Controller\\HomepageController::indexAction',  '_route' => 'tuto_welcome_homepage',);
+            return array (  '_controller' => 'tuto\\WelcomeBundle\\Controller\\HomepageController::indexAction',  '_route' => 'tutoWelcomeBundle_homepage',);
         }
 
         // _welcome

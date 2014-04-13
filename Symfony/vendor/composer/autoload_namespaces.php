@@ -6,6 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Zend\\Validator\\' => array($vendorDir . '/zendframework/zend-validator'),
+    'Zend\\Uri\\' => array($vendorDir . '/zendframework/zend-uri'),
+    'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib'),
+    'Zend\\ServiceManager\\' => array($vendorDir . '/zendframework/zend-servicemanager'),
+    'Zend\\Loader\\' => array($vendorDir . '/zendframework/zend-loader'),
+    'Zend\\Http\\' => array($vendorDir . '/zendframework/zend-http'),
+    'Zend\\Feed\\' => array($vendorDir . '/zendframework/zend-feed'),
+    'Zend\\Escaper\\' => array($vendorDir . '/zendframework/zend-escaper'),
     'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Symfony\\Component\\Icu\\' => array($vendorDir . '/symfony/icu'),

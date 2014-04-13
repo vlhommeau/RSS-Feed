@@ -7,6 +7,7 @@
         "psr-0": { "": "src/" }
     },
     "require": {
+    	"eko/feedbundle": "dev-master",
         "php": ">=5.3.3",
         "symfony/symfony": "~2.4",
         "doctrine/orm": "~2.2,>=2.2.3",
